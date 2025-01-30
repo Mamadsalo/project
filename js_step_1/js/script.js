@@ -14,23 +14,30 @@
 // answers[2] = prompt("How old are you?", "");
 
 // document.write(typeof answers);
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const numberOfFilms = +prompt("Skolko filmov vi uzhe posmotreli", "");
+// const numberOfFilms = +prompt("Skolko filmov vi uzhe posmotreli", "");
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  geners: [],
-  private: false,
-};
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   geners: [],
+//   private: false,
+// };
 
-const a = prompt("Odin iz poslednikh prosmotrenikh filmov?", ""),
-  b = prompt("Na skolko ocenite ego?"),
-  c = prompt("Odin iz poslednikh prosmotrenikh filmov?", ""),
-  d = prompt("Na skolko ocenite ego?", "");
+// const a = prompt("Odin iz poslednikh prosmotrenikh filmov?", ""),
+//   b = prompt("Na skolko ocenite ego?"),
+//   c = prompt("Odin iz poslednikh prosmotrenikh filmov?", ""),
+//   d = prompt("Na skolko ocenite ego?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let box = " ";
+
+console.log(box);
